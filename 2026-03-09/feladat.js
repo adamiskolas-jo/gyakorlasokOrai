@@ -24,7 +24,7 @@ function kuldes() {
     }
     else {
         hibaHely.innerHTML = ""
-        tablaTest.innerHTML += `<tr id="sor_${sorszam}"><td>${nev.value}</td><td>${ar}</td><td onclick="torolSor(${sorszam})">X</td></tr>`
+        tablaTest.innerHTML += `<tr class="text-center" id="sor_${sorszam}"><td>${nev.value}</td><td>${ar}</td><td onclick="torolSor(${sorszam})">X</td></tr>`
         sorszam += 1;
 
         osszeg = osszeg + ar;
