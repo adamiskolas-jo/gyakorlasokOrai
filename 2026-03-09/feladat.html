@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevásárlólista</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"></head>
+<body>
+    
+<input type="text" id="termek" placeholder="Termék neve">
+<input type="text" id="ar" placeholder="Termék ÁRA">
+<button onclick="kuldes()">Beküld</button>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            
+            <div class="table-responsive">
+                <table class="table mt-3 table-dark table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <td>Termék neve:</td>
+                            <td>Ára:</td>
+                            <td>Töröl:</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaTest">
+            
+                    </tbody>
+                </table>
+                <div id="osszegHely"></div>
+                <div id="hibaHely">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="./feladat
+.js"></script>
+</html>
