@@ -5,7 +5,6 @@ console.log(huto);
 
 const hutomUI = document.getElementById("hutom");
 
-let i = 0
-huto.forEach((ertek) => {
-    hutomUI.innerHTML += `<li>${ertek}</li>`
+huto.forEach((ertek, index) => {
+    hutomUI.innerHTML += `<li>${index}. ${ertek}</li>`
 });
