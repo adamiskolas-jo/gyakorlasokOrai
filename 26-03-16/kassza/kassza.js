@@ -1,5 +1,5 @@
-let termekNev = ["Kenyér", "Sonka", "Vaj", "Zsepi", "Víz", "Sampon", "Pókemberes parfüm"];
-let termekAr = [500, 1000, 1200, 400, 250, 3200, 4500];
+let termekNev = ["Kenyér", "Sonka", "Vaj", "Zsepi", "Víz", "Sampon", "Pókemberes parfüm", "Boldogság"];
+let termekAr = [500, 1000, 1200, 400, 250, 3200, 4500, 14990];
 const termekekSor = document.getElementById("termekekSor");
 
 termekNev.forEach((nev, index) => {
